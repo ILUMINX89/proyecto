@@ -1,10 +1,20 @@
-body{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/22/New_York_City_at_night_HDR.jpg);
-  background-size: cover;
-}
 .TITULO{
   color: #0029FF;
   margin-left: 40%;
+  background-color: white;
+  width: 300px;
+}
+.BANER{
+  height: 100%;
+  width: 40%;
+  margin-left: 20%;
+}
+#IMGBANER{
+  height: 350px;
+  width: 150%;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: 10px;
 }
 .ARTICULOS{
     width: 98%;
@@ -23,6 +33,10 @@ body{
     border: 1px solid #02565F;
     margin-top: 10px;
     color: black;
+}
+.ARTICULO:HOVER{
+  background-color: BLACK;
+  color: white;
 }
 .refARTICULOS {
     height: 200px;
@@ -74,6 +88,7 @@ h6 {
     height: 380px;
     width: 50%;
     margin-left: 2%;
+    border-radius: 50%;
     background-color: red;
     margin-top: 10px;
     float: left;
@@ -88,13 +103,15 @@ h6 {
 #imgfi {
     height: 260px;
     width: 98%;
-    border-radius: 30%;
     margin-left: 1%;
-    margin-top: 10px;
 }
 #imgfi:hover{
   width: 500px;
   transition: 3s;
+  border-radius: 50%;
+}
+#imgfina{
+  border-radius: 50%;
 }
 .textfi{
     text-align: center;
@@ -106,4 +123,14 @@ h6 {
     float: left;
     margin-top: 50px;
     margin-left: 10%;
+}
+.infofina:hover{
+  background-color: black;
+  color white;
+}
+h2:hover{
+  background-color: white;
+  color:  black;
+  width: 150px;
+  margin left: 30%;
 }

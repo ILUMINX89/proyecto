@@ -1,0 +1,109 @@
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXJkMO-o_txHzAHPIqgxIgGv8HP4EDl_Kow&usqp=CAU);
+  background-size: cover;
+}
+.TITULO{
+  color: #0029FF;
+  margin-left: 40%;
+}
+.ARTICULOS{
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 20px;
+    height: 850px;
+    border-radius: 5px;
+    color: white;
+}
+.ARTICULO {
+    height: 410px;
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    background-color: white;
+    border: 1px solid #02565F;
+    margin-top: 10px;
+    color: black;
+}
+.refARTICULOS {
+    height: 200px;
+    width: 98%;
+    background-color: white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#imgARTICULO{
+    height: 180px;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+#imgARTICULO:hover{
+  transform: rotateY(90deg);
+  transition: 5s;
+}
+.refARTICULOS:hover{
+  transform: rotateY(90deg);
+  transition: 5s;
+}
+h6 {
+    background-color:black;
+    width: 45%;
+    float: left;
+    height: 15px;
+    padding: 0px;
+    margin-left: 3.33%;
+    text-align: center;
+}
+.INFO{
+  background-color: white;
+}
+.COMPRAR{
+  margin-top: 50px;
+  color:white;
+}
+.partefinal {
+    height: 400px;
+    width: 98%;
+    margin-left: 1%;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.imagenfina {
+    height: 380px;
+    width: 50%;
+    margin-left: 2%;
+    background-color: red;
+    margin-top: 10px;
+    float: left;
+}
+.infofina {
+    height: 380px;
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 10px;
+    float: left;
+}
+#imgfi {
+    height: 260px;
+    width: 98%;
+    border-radius: 30%;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+#imgfi:hover{
+  width: 500px;
+  transition: 3s;
+}
+.textfi{
+    text-align: center;
+    color: black;
+}
+.servicios {
+    height: 280px;
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
